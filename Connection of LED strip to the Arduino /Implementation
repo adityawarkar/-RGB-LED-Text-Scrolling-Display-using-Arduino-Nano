@@ -1,0 +1,7 @@
+a. Connect the 5V pin of the LED strip to the 5V pin on the Arduino Nano Board.  
+b. Connect the GND (ground) pin of the LED strip to the GND pin on the Arduino Nano. 
+c. Connect the DIN (data input) pin of the LED strip to digital pin on the Arduino pin no 6. 
+d. Open Arduino IDE Sketch a program as required then do compile and upload to board. 
+e. After done uploading check the program output which will get on RGB LED strip. 
+f. The Output can be varied by changes in program like delay, matrix colour code, texting,                  
+Looping Functon.  
