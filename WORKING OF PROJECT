@@ -1,0 +1,22 @@
+Arduino working logic:   
+Arduino can work with WS2812B LEDs using the ADAFRUIT library, which provides a 
+convenient way to control these addressable RGB LEDs. Here's a general overview of how 
+Arduino can interact with WS2812B LEDs 
+ 
+• Hardware Connections: Connect the data pin of the WS2812B LED strip to one of the 
+digital pins of the Arduino. Also, connect the ground (GND) and power (VCC) pins of the LED 
+strip to the corresponding pins on the Arduino or a separate power source  
+ 
+• Define LED Parameters: Declare the number of LEDs in your strip and the Arduino pin 
+connected to the data line of the WS2812B LEDs.  
+ 
+• Create LED Array: Create an array of CRGB objects, representing the RGB colour values 
+for each LED in the strip  
+ 
+• Control LED Colours: In the loop () function, you can manipulate the LED colours using 
+various Fast LED functions.  
+ 
+• Power Considerations: Ensure that you provide an adequate power supply to the WS2812B 
+LED strip, especially if you have a large number of LEDs or if they are set to display bright 
+and saturated colours. The power supply should be able to provide sufficient current to all the 
+LEDs in the strip. 
